@@ -1,0 +1,11 @@
+# KiCad: lokale Sperr-, Cache- und Sicherungsdateien
+*.lck
+~*
+fp-info-cache
+*-backups/
+*.kicad_prl
+_autosave-*
+*.bak
+
+# Datenblätter von Herstellern (Urheberrecht beim Hersteller)
+*.pdf

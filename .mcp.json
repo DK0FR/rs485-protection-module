@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "kicad": {
+      "command": "python",
+      "args": ["-m", "eda_agent"],
+      "env": { "EDA_AGENT_BACKEND": "kicad" }
+    }
+  }
+}
