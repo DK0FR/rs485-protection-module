@@ -4,6 +4,8 @@
 
 Aufdruck auf der Platine: „A05 RS485 Protection Module / DH5WM 2026 / www.dk0fr.de“
 
+Repository: https://github.com/DK0FR/rs485-protection-module · Fertigungsdaten: [Fertigung/JLCPCB_Rev4/rs485-protection-module_Rev4_JLCPCB.zip](Fertigung/JLCPCB_Rev4/rs485-protection-module_Rev4_JLCPCB.zip)
+
 Stand: 15. Oktober 2026, Rev. 4. Die Platine ist geroutet und geprüft, die Gerberdaten sind bestellfertig. Die Schaltung ist berechnet, nicht gemessen.
 
 ## Ziel
@@ -95,7 +97,7 @@ Auf der Unterseite ist zusätzlich jeder Klemmenpin einzeln beschriftet.
 
 | Artefakt | Inhalt | Stand |
 |---|---|---|
-| `rs485-protection-module.md` | Diese Zusammenfassung, benannt wie das KiCad-Projekt (früher „Projektzusammenfassung Rotor-Schutzmodul.md“) | 15.10.2026 |
+| `README.md` | Diese Zusammenfassung (früher „Projektzusammenfassung Rotor-Schutzmodul.md“ bzw. „rs485-protection-module.md“) | 15.10.2026 |
 | Seite „Rotor-Schutzmodul RS485/24 V“ (claude.ai-Artefakt) | Schaltplan 24 V und RS485, Bestückungsplan, Seitenansicht im Rohr, Netzklassen, Stückliste, Mouser-Bestellliste mit Kopierknopf, Prüf- und Aufbauhinweise | Rev. 4, Version 5 (vor dem Routing; L3-Wicklungen dort noch falsch angenommen) |
 | `rs485-protection-module.kicad_sch` | Schaltplan, ein A3-Blatt, Symbole eingebettet (L3 mit eigenem Symbol CMC_SL5), Footprints und MPN-Felder zugewiesen, Dose X1 und Befestigungslöcher enthalten | Rev. 4, 15.10.2026 |
 | `rs485-protection-module.kicad_pcb` | Platine 100 × 38 mm, geroutet, geteilte PE-Flächen auf beiden Lagen, überarbeiteter Bestückungsdruck, DRC sauber (bis auf die akzeptierte Überschneidung L1/L3) | Rev. 4, 15.10.2026 |
