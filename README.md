@@ -93,6 +93,17 @@ Auf der Unterseite ist zusätzlich jeder Klemmenpin einzeln beschriftet.
 7. **Kosmetisch:** Bibliothekswarnungen (Projektbibliothek „Rotor“ nicht eingebunden, Footprints weichen von der Bibliothekskopie ab). Sie betreffen die Fertigung nicht.
 8. **Bei Dateiänderungen außerhalb von KiCad** KiCad vorher komplett schließen, auch die Projektverwaltung. Sonst überschreibt KiCad die Änderungen beim nächsten Speichern. Das ist am 15.10.2026 zweimal passiert, einmal mit dem Board und einmal mit den Netzklassen-Mustern in der Projektdatei.
 
+## Erledigte Punkte
+
+Diese Punkte standen in der Projektzusammenfassung aus der claude.ai-Sitzung (Stand vor dem Routing) als offen und sind am 15.10.2026 erledigt worden.
+
+| Früher offen | Ergebnis |
+|---|---|
+| **Routen der Platine:** Unterseite als PE-Fläche, 0V_FIELD unterhalb von F1 vorbeiführen, Abzweig 0V_PROT zu D2 von Hand auf 0,5 mm | Vollständig geroutet. 0V_FIELD läuft auf der Unterseite unter F1. Der Abzweig 0V_PROT zu D2 läuft über die Unterseite (0,6 mm) und ein Via zu D3. Statt einer durchgehenden PE-Fläche gibt es auf beiden Lagen geteilte Flächen, siehe Entscheidungen. |
+| **Wicklungen der Drosseln messen** (Annahme: L1/L2 1–2 und 4–3, L3/L4 1–4 und 2–3) | Anhand der Würth-Datenblätter geklärt statt gemessen, siehe Tabelle „Drosselwicklungen“. Die Annahme war für L3 falsch: A und B lagen auf derselben Wicklung und wären kurzgeschlossen gewesen. Das ist behoben. Eine Ohmmeter-Prüfung vor dem Einlöten schadet trotzdem nicht: Zwischen A_R und A_MID sowie zwischen B_R und B_MID müssen einige Ohm Durchgang sein, zwischen A und B darf keiner sein. |
+| **Lötflächen GDT1/GDT2** mit dem Bourns-Datenblatt vergleichen | GDT2 passt zum Datenblatt 2036-xx-SM. Bei GDT1 sind die Pads nach Datenblatt 2035-xx-SM auf 1,3 mm verschmälert. |
+| **KiCad-Dateien nie in KiCad geöffnet** | Mit KiCad 10.0.5 geöffnet und gespeichert. Die Netzklassen sind übernommen. ERC und DRC sind sauber bis auf die akzeptierten Punkte unter Status. |
+
 ## Artefakte
 
 | Artefakt | Inhalt | Stand |
