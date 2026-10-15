@@ -1,0 +1,456 @@
+<svg width="1060" height="472" xmlns="http://www.w3.org/2000/svg" viewBox="-30 -46 1060 472" role="img" aria-label="Bestückungsplan der Platine 100 x 38 mm"><style>:root{
+  --bg: #f3f6f6;
+  --sheet: #fbfdfd;
+  --fg: #15242c;
+  --muted: #5b6c75;
+  --line: #c9d5d9;
+  --wire: #1d2f38;
+  --pos: #b8291f;
+  --pe: #1b7a48;
+  --accent: #1c5ea6;
+  --field: #c8731c;
+  --mid: #7a4fb5;
+  --board: #e9f1ee;
+  --display: "IBM Plex Sans Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --body: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+svg .w { stroke: var(--wire); stroke-width: 1.6; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+svg .p { stroke: var(--pos); stroke-width: 1.8; fill: none; stroke-linecap: round; }
+svg .g { stroke: var(--pe); stroke-width: 1.8; fill: none; stroke-linecap: round; }
+svg .k { stroke: var(--wire); stroke-width: 2.4; fill: none; stroke-linecap: round; }
+svg .s { stroke: var(--wire); stroke-width: 1.6; fill: var(--sheet); stroke-linejoin: round; }
+svg .d { fill: var(--wire); stroke: none; }
+svg .b { stroke: var(--line); stroke-width: 1.2; fill: none; }
+svg .dash { stroke: var(--muted); stroke-width: 1.2; stroke-dasharray: 5 4; fill: none; }
+svg text { font-family: var(--display); font-size: 12.5px; fill: var(--fg); stroke: none; }
+svg .r { fill: var(--accent); font-weight: 600; }
+svg .n, svg .pin { font-family: var(--mono); font-size: 10.5px; fill: var(--muted); }
+svg .pin { fill: var(--fg); }
+svg .cap { font-family: var(--mono); font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; fill: var(--muted); }
+svg .tw { fill: var(--line); stroke: var(--wire); stroke-width: 1.2; }
+svg .pb { fill: var(--board); stroke: var(--wire); stroke-width: 2; }
+svg .pb2 { fill: var(--pe); stroke: none; }
+svg .pf { stroke: var(--muted); stroke-width: 1.3; fill: none; }
+svg .pd { stroke: none; }
+svg .pd.field { fill: var(--field); } svg .pd.pe { fill: var(--pe); } svg .pd.prot { fill: var(--accent); } svg .pd.mid { fill: var(--mid); }
+svg .ph { fill: var(--board); }
+svg .pr { font-family: var(--display); font-size: 15px; font-weight: 600; fill: var(--fg); }
+svg .pn { font-family: var(--mono); font-size: 14px; fill: var(--muted); }
+svg .pm { stroke: var(--line); stroke-width: 1.5; }
+svg{background:#fbfdfd;font-family:Arial,Helvetica,sans-serif}</style>
+<rect class="pb" x="0" y="0" width="1000" height="380" rx="4"/>
+<line class="pf" x1="106.0" y1="70.6" x2="106.0" y2="172.2"/>
+<line class="pf" x1="106.0" y1="172.2" x2="8.0" y2="172.2"/>
+<line class="pf" x1="8.0" y1="172.2" x2="8.0" y2="75.6"/>
+<line class="pf" x1="8.0" y1="75.6" x2="13.0" y2="70.6"/>
+<line class="pf" x1="13.0" y1="70.6" x2="106.0" y2="70.6"/>
+<line class="pf" x1="13.0" y1="70.6" x2="13.0" y2="172.2"/>
+<line class="pf" x1="28.0" y1="70.6" x2="28.0" y2="172.2"/>
+<line class="pf" x1="77.0" y1="70.6" x2="77.0" y2="172.2"/>
+<line class="pf" x1="63.6" y1="107.4" x2="42.6" y2="86.4"/>
+<line class="pf" x1="65.4" y1="105.5" x2="44.5" y2="84.6"/>
+<line class="pf" x1="63.6" y1="158.2" x2="42.6" y2="137.3"/>
+<line class="pf" x1="65.4" y1="156.3" x2="44.5" y2="135.4"/>
+<circle class="pf" cx="54.0" cy="96.0" r="15.0"/>
+<circle class="pf" cx="54.0" cy="146.8" r="15.0"/>
+<line class="pf" x1="106.0" y1="198.6" x2="106.0" y2="300.2"/>
+<line class="pf" x1="106.0" y1="300.2" x2="8.0" y2="300.2"/>
+<line class="pf" x1="8.0" y1="300.2" x2="8.0" y2="203.6"/>
+<line class="pf" x1="8.0" y1="203.6" x2="13.0" y2="198.6"/>
+<line class="pf" x1="13.0" y1="198.6" x2="106.0" y2="198.6"/>
+<line class="pf" x1="13.0" y1="198.6" x2="13.0" y2="300.2"/>
+<line class="pf" x1="28.0" y1="198.6" x2="28.0" y2="300.2"/>
+<line class="pf" x1="77.0" y1="198.6" x2="77.0" y2="300.2"/>
+<line class="pf" x1="63.6" y1="235.4" x2="42.6" y2="214.4"/>
+<line class="pf" x1="65.4" y1="233.5" x2="44.5" y2="212.6"/>
+<line class="pf" x1="63.6" y1="286.2" x2="42.6" y2="265.3"/>
+<line class="pf" x1="65.4" y1="284.3" x2="44.5" y2="263.4"/>
+<circle class="pf" cx="54.0" cy="224.0" r="15.0"/>
+<circle class="pf" cx="54.0" cy="274.8" r="15.0"/>
+<line class="pf" x1="147.0" y1="6.0" x2="147.0" y2="248.0"/>
+<line class="pf" x1="147.0" y1="248.0" x2="117.0" y2="248.0"/>
+<line class="pf" x1="117.0" y1="248.0" x2="117.0" y2="6.0"/>
+<line class="pf" x1="117.0" y1="6.0" x2="147.0" y2="6.0"/>
+<line class="pf" x1="157.5" y1="55.0" x2="157.5" y2="210.0"/>
+<line class="pf" x1="202.5" y1="55.0" x2="202.5" y2="210.0"/>
+<line class="pf" x1="202.5" y1="210.0" x2="157.5" y2="210.0"/>
+<line class="pf" x1="202.5" y1="55.0" x2="157.5" y2="55.0"/>
+<line class="pf" x1="196.0" y1="22.0" x2="196.0" y2="38.0"/>
+<line class="pf" x1="196.0" y1="38.0" x2="164.0" y2="38.0"/>
+<line class="pf" x1="164.0" y1="38.0" x2="164.0" y2="22.0"/>
+<line class="pf" x1="164.0" y1="22.0" x2="196.0" y2="22.0"/>
+<line class="pf" x1="196.0" y1="222.0" x2="196.0" y2="238.0"/>
+<line class="pf" x1="196.0" y1="238.0" x2="164.0" y2="238.0"/>
+<line class="pf" x1="164.0" y1="238.0" x2="164.0" y2="222.0"/>
+<line class="pf" x1="164.0" y1="222.0" x2="196.0" y2="222.0"/>
+<line class="pf" x1="223.0" y1="195.0" x2="267.0" y2="195.0"/>
+<line class="pf" x1="267.0" y1="195.0" x2="267.0" y2="245.0"/>
+<line class="pf" x1="267.0" y1="245.0" x2="223.0" y2="245.0"/>
+<line class="pf" x1="223.0" y1="245.0" x2="223.0" y2="195.0"/>
+<line class="pf" x1="180.0" y1="278.5" x2="180.0" y2="351.5"/>
+<line class="pf" x1="180.0" y1="351.5" x2="130.0" y2="351.5"/>
+<line class="pf" x1="130.0" y1="351.5" x2="130.0" y2="278.5"/>
+<line class="pf" x1="130.0" y1="278.5" x2="180.0" y2="278.5"/>
+<line class="pf" x1="207.0" y1="275.0" x2="223.0" y2="275.0"/>
+<line class="pf" x1="223.0" y1="275.0" x2="223.0" y2="307.0"/>
+<line class="pf" x1="223.0" y1="307.0" x2="207.0" y2="307.0"/>
+<line class="pf" x1="207.0" y1="307.0" x2="207.0" y2="275.0"/>
+<line class="pf" x1="223.0" y1="357.0" x2="207.0" y2="357.0"/>
+<line class="pf" x1="207.0" y1="357.0" x2="207.0" y2="325.0"/>
+<line class="pf" x1="207.0" y1="325.0" x2="223.0" y2="325.0"/>
+<line class="pf" x1="223.0" y1="325.0" x2="223.0" y2="357.0"/>
+<line class="pf" x1="303.0" y1="291.0" x2="303.0" y2="313.0"/>
+<line class="pf" x1="269.0" y1="291.0" x2="269.0" y2="313.0"/>
+<line class="pf" x1="257.0" y1="291.0" x2="257.0" y2="313.0"/>
+<line class="pf" x1="257.0" y1="313.0" x2="315.0" y2="313.0"/>
+<line class="pf" x1="315.0" y1="313.0" x2="315.0" y2="291.0"/>
+<line class="pf" x1="315.0" y1="291.0" x2="257.0" y2="291.0"/>
+<line class="pf" x1="303.0" y1="345.0" x2="303.0" y2="367.0"/>
+<line class="pf" x1="269.0" y1="345.0" x2="269.0" y2="367.0"/>
+<line class="pf" x1="257.0" y1="345.0" x2="257.0" y2="367.0"/>
+<line class="pf" x1="257.0" y1="367.0" x2="315.0" y2="367.0"/>
+<line class="pf" x1="315.0" y1="367.0" x2="315.0" y2="345.0"/>
+<line class="pf" x1="315.0" y1="345.0" x2="257.0" y2="345.0"/>
+<line class="pf" x1="432.0" y1="230.5" x2="442.0" y2="230.5"/>
+<line class="pf" x1="442.0" y1="230.5" x2="442.0" y2="210.5"/>
+<line class="pf" x1="332.0" y1="230.5" x2="322.0" y2="230.5"/>
+<line class="pf" x1="322.0" y1="230.5" x2="322.0" y2="210.5"/>
+<line class="pf" x1="332.0" y1="58.0" x2="322.0" y2="58.0"/>
+<line class="pf" x1="322.0" y1="58.0" x2="322.0" y2="75.5"/>
+<line class="pf" x1="432.0" y1="58.0" x2="442.0" y2="58.0"/>
+<line class="pf" x1="442.0" y1="58.0" x2="442.0" y2="75.5"/>
+<line class="pf" x1="284.5" y1="5.5" x2="284.5" y2="280.5"/>
+<line class="pf" x1="479.5" y1="5.5" x2="284.5" y2="5.5"/>
+<line class="pf" x1="479.5" y1="5.5" x2="479.5" y2="280.5"/>
+<line class="pf" x1="479.5" y1="280.5" x2="284.5" y2="280.5"/>
+<line class="pf" x1="407.0" y1="230.5" x2="357.0" y2="230.5"/>
+<line class="pf" x1="357.0" y1="235.5" x2="407.0" y2="235.5"/>
+<line class="pf" x1="407.0" y1="225.5" x2="357.0" y2="225.5"/>
+<line class="pf" x1="332.0" y1="230.5" x2="357.0" y2="230.5"/>
+<line class="pf" x1="432.0" y1="230.5" x2="407.0" y2="230.5"/>
+<line class="pf" x1="407.0" y1="240.5" x2="357.0" y2="240.5"/>
+<line class="pf" x1="357.0" y1="240.5" x2="357.0" y2="220.5"/>
+<line class="pf" x1="357.0" y1="220.5" x2="407.0" y2="220.5"/>
+<line class="pf" x1="407.0" y1="220.5" x2="407.0" y2="240.5"/>
+<line class="pf" x1="407.0" y1="58.0" x2="432.0" y2="58.0"/>
+<line class="pf" x1="357.0" y1="63.0" x2="407.0" y2="63.0"/>
+<line class="pf" x1="407.0" y1="53.0" x2="357.0" y2="53.0"/>
+<line class="pf" x1="357.0" y1="58.0" x2="407.0" y2="58.0"/>
+<line class="pf" x1="382.0" y1="48.0" x2="407.0" y2="48.0"/>
+<line class="pf" x1="407.0" y1="48.0" x2="407.0" y2="68.0"/>
+<line class="pf" x1="407.0" y1="68.0" x2="357.0" y2="68.0"/>
+<line class="pf" x1="357.0" y1="58.0" x2="332.0" y2="58.0"/>
+<line class="pf" x1="357.0" y1="68.0" x2="357.0" y2="48.0"/>
+<line class="pf" x1="357.0" y1="48.0" x2="382.0" y2="48.0"/>
+<circle class="pf" cx="342.0" cy="245.5" r="5.0"/>
+<circle class="pf" cx="342.0" cy="43.0" r="5.0"/>
+<line class="pf" x1="510.0" y1="86.0" x2="494.0" y2="86.0"/>
+<line class="pf" x1="494.0" y1="86.0" x2="494.0" y2="54.0"/>
+<line class="pf" x1="494.0" y1="54.0" x2="510.0" y2="54.0"/>
+<line class="pf" x1="510.0" y1="54.0" x2="510.0" y2="86.0"/>
+<line class="pf" x1="494.0" y1="200.0" x2="510.0" y2="200.0"/>
+<line class="pf" x1="510.0" y1="200.0" x2="510.0" y2="232.0"/>
+<line class="pf" x1="510.0" y1="232.0" x2="494.0" y2="232.0"/>
+<line class="pf" x1="494.0" y1="232.0" x2="494.0" y2="200.0"/>
+<line class="pf" x1="597.5" y1="146.5" x2="572.5" y2="146.5"/>
+<line class="pf" x1="572.5" y1="141.5" x2="595.0" y2="141.5"/>
+<line class="pf" x1="597.5" y1="144.0" x2="572.5" y2="144.0"/>
+<line class="pf" x1="572.5" y1="121.5" x2="597.5" y2="121.5"/>
+<line class="pf" x1="595.0" y1="116.5" x2="575.0" y2="116.5"/>
+<line class="pf" x1="595.0" y1="119.0" x2="572.5" y2="119.0"/>
+<line class="pf" x1="572.5" y1="119.0" x2="557.5" y2="119.0"/>
+<line class="pf" x1="557.5" y1="119.0" x2="557.5" y2="111.5"/>
+<line class="pf" x1="572.5" y1="144.0" x2="557.5" y2="144.0"/>
+<line class="pf" x1="557.5" y1="144.0" x2="557.5" y2="151.5"/>
+<line class="pf" x1="597.5" y1="144.0" x2="612.5" y2="144.0"/>
+<line class="pf" x1="612.5" y1="144.0" x2="612.5" y2="151.5"/>
+<line class="pf" x1="597.5" y1="119.0" x2="612.5" y2="119.0"/>
+<line class="pf" x1="612.5" y1="119.0" x2="612.5" y2="111.5"/>
+<line class="pf" x1="597.5" y1="139.0" x2="597.5" y2="149.0"/>
+<line class="pf" x1="597.5" y1="149.0" x2="572.5" y2="149.0"/>
+<line class="pf" x1="572.5" y1="149.0" x2="572.5" y2="139.0"/>
+<line class="pf" x1="572.5" y1="139.0" x2="597.5" y2="139.0"/>
+<line class="pf" x1="597.5" y1="124.0" x2="572.5" y2="124.0"/>
+<line class="pf" x1="572.5" y1="124.0" x2="572.5" y2="114.0"/>
+<line class="pf" x1="572.5" y1="114.0" x2="585.0" y2="114.0"/>
+<line class="pf" x1="597.5" y1="114.0" x2="597.5" y2="124.0"/>
+<line class="pf" x1="585.0" y1="114.0" x2="597.5" y2="114.0"/>
+<line class="pf" x1="650.0" y1="44.0" x2="605.0" y2="44.0"/>
+<line class="pf" x1="605.0" y1="44.0" x2="605.0" y2="56.5"/>
+<line class="pf" x1="605.0" y1="56.5" x2="565.0" y2="56.5"/>
+<line class="pf" x1="565.0" y1="56.5" x2="565.0" y2="44.0"/>
+<line class="pf" x1="565.0" y1="44.0" x2="520.0" y2="44.0"/>
+<line class="pf" x1="520.0" y1="44.0" x2="520.0" y2="111.5"/>
+<line class="pf" x1="520.0" y1="111.5" x2="532.5" y2="111.5"/>
+<line class="pf" x1="532.5" y1="111.5" x2="532.5" y2="151.5"/>
+<line class="pf" x1="532.5" y1="151.5" x2="520.0" y2="151.5"/>
+<line class="pf" x1="520.0" y1="151.5" x2="520.0" y2="219.0"/>
+<line class="pf" x1="520.0" y1="219.0" x2="565.0" y2="219.0"/>
+<line class="pf" x1="565.0" y1="219.0" x2="565.0" y2="206.5"/>
+<line class="pf" x1="565.0" y1="206.5" x2="605.0" y2="206.5"/>
+<line class="pf" x1="605.0" y1="206.5" x2="605.0" y2="219.0"/>
+<line class="pf" x1="605.0" y1="219.0" x2="650.0" y2="219.0"/>
+<line class="pf" x1="650.0" y1="219.0" x2="650.0" y2="151.5"/>
+<line class="pf" x1="650.0" y1="151.5" x2="637.5" y2="151.5"/>
+<line class="pf" x1="637.5" y1="151.5" x2="637.5" y2="111.5"/>
+<line class="pf" x1="637.5" y1="111.5" x2="650.0" y2="111.5"/>
+<line class="pf" x1="650.0" y1="111.5" x2="650.0" y2="44.0"/>
+<circle class="pf" cx="545.0" cy="144.0" r="2.5"/>
+<circle class="pf" cx="547.5" cy="119.0" r="2.5"/>
+<line class="pf" x1="511.5" y1="270.0" x2="578.5" y2="270.0"/>
+<line class="pf" x1="578.5" y1="270.0" x2="578.5" y2="370.0"/>
+<line class="pf" x1="578.5" y1="370.0" x2="491.5" y2="370.0"/>
+<line class="pf" x1="491.5" y1="370.0" x2="491.5" y2="290.0"/>
+<line class="pf" x1="491.5" y1="290.0" x2="511.5" y2="270.0"/>
+<line class="pf" x1="594.0" y1="298.0" x2="602.0" y2="290.0"/>
+<line class="pf" x1="594.0" y1="300.0" x2="594.0" y2="291.0"/>
+<line class="pf" x1="594.0" y1="291.0" x2="595.0" y2="290.0"/>
+<line class="pf" x1="595.0" y1="290.0" x2="604.0" y2="290.0"/>
+<line class="pf" x1="594.0" y1="300.0" x2="594.0" y2="350.0"/>
+<line class="pf" x1="604.0" y1="290.0" x2="686.0" y2="290.0"/>
+<line class="pf" x1="686.0" y1="290.0" x2="686.0" y2="350.0"/>
+<line class="pf" x1="686.0" y1="350.0" x2="594.0" y2="350.0"/>
+<line class="pf" x1="664.0" y1="179.0" x2="664.0" y2="108.0"/>
+<line class="pf" x1="664.0" y1="108.0" x2="726.0" y2="108.0"/>
+<line class="pf" x1="726.0" y1="179.0" x2="664.0" y2="179.0"/>
+<line class="pf" x1="726.0" y1="179.0" x2="726.0" y2="108.0"/>
+<line class="pf" x1="695.0" y1="137.0" x2="695.0" y2="128.0"/>
+<line class="pf" x1="695.0" y1="148.5" x2="695.0" y2="158.5"/>
+<line class="pf" x1="703.0" y1="137.0" x2="687.0" y2="137.0"/>
+<line class="pf" x1="687.5" y1="148.5" x2="703.0" y2="148.5"/>
+<line class="pf" x1="695.0" y1="137.0" x2="687.5" y2="148.5"/>
+<line class="pf" x1="695.0" y1="137.0" x2="703.0" y2="148.5"/>
+<line class="pf" x1="806.9" y1="97.1" x2="806.9" y2="107.1"/>
+<line class="pf" x1="811.9" y1="102.1" x2="801.9" y2="102.1"/>
+<circle class="pf" cx="785.0" cy="140.0" r="50.0"/>
+<line class="pf" x1="852.0" y1="127.0" x2="868.0" y2="127.0"/>
+<line class="pf" x1="868.0" y1="127.0" x2="868.0" y2="159.0"/>
+<line class="pf" x1="868.0" y1="159.0" x2="852.0" y2="159.0"/>
+<line class="pf" x1="852.0" y1="159.0" x2="852.0" y2="127.0"/>
+<line class="pf" x1="868.0" y1="91.0" x2="852.0" y2="91.0"/>
+<line class="pf" x1="852.0" y1="91.0" x2="852.0" y2="59.0"/>
+<line class="pf" x1="852.0" y1="59.0" x2="868.0" y2="59.0"/>
+<line class="pf" x1="868.0" y1="59.0" x2="868.0" y2="91.0"/>
+<line class="pf" x1="852.0" y1="194.0" x2="868.0" y2="194.0"/>
+<line class="pf" x1="868.0" y1="194.0" x2="868.0" y2="226.0"/>
+<line class="pf" x1="868.0" y1="226.0" x2="852.0" y2="226.0"/>
+<line class="pf" x1="852.0" y1="226.0" x2="852.0" y2="194.0"/>
+<line class="pf" x1="783.0" y1="256.0" x2="737.0" y2="256.0"/>
+<line class="pf" x1="737.0" y1="256.0" x2="737.0" y2="216.0"/>
+<line class="pf" x1="783.0" y1="216.0" x2="783.0" y2="256.0"/>
+<line class="pf" x1="783.0" y1="216.0" x2="737.0" y2="216.0"/>
+<line class="pf" x1="753.5" y1="236.0" x2="744.5" y2="236.0"/>
+<line class="pf" x1="765.0" y1="236.0" x2="775.0" y2="236.0"/>
+<line class="pf" x1="753.5" y1="228.0" x2="753.5" y2="244.0"/>
+<line class="pf" x1="765.0" y1="243.5" x2="765.0" y2="228.0"/>
+<line class="pf" x1="753.5" y1="236.0" x2="765.0" y2="243.5"/>
+<line class="pf" x1="753.5" y1="236.0" x2="765.0" y2="228.0"/>
+<line class="pf" x1="820.0" y1="202.0" x2="836.0" y2="202.0"/>
+<line class="pf" x1="836.0" y1="202.0" x2="836.0" y2="234.0"/>
+<line class="pf" x1="836.0" y1="234.0" x2="820.0" y2="234.0"/>
+<line class="pf" x1="820.0" y1="234.0" x2="820.0" y2="202.0"/>
+<line class="pf" x1="718.0" y1="310.5" x2="718.0" y2="335.0"/>
+<line class="pf" x1="723.5" y1="304.8" x2="732.0" y2="304.8"/>
+<line class="pf" x1="718.0" y1="310.5" x2="723.5" y2="304.8"/>
+<line class="pf" x1="732.0" y1="304.8" x2="732.0" y2="335.2"/>
+<line class="pf" x1="718.0" y1="335.2" x2="732.0" y2="335.2"/>
+<line class="pf" x1="788.0" y1="304.0" x2="772.0" y2="304.0"/>
+<line class="pf" x1="772.0" y1="304.0" x2="772.0" y2="272.0"/>
+<line class="pf" x1="772.0" y1="272.0" x2="788.0" y2="272.0"/>
+<line class="pf" x1="788.0" y1="272.0" x2="788.0" y2="304.0"/>
+<line class="pf" x1="772.0" y1="333.0" x2="788.0" y2="333.0"/>
+<line class="pf" x1="788.0" y1="333.0" x2="788.0" y2="365.0"/>
+<line class="pf" x1="788.0" y1="365.0" x2="772.0" y2="365.0"/>
+<line class="pf" x1="772.0" y1="365.0" x2="772.0" y2="333.0"/>
+<line class="pf" x1="811.0" y1="314.0" x2="811.0" y2="298.0"/>
+<line class="pf" x1="811.0" y1="298.0" x2="843.0" y2="298.0"/>
+<line class="pf" x1="843.0" y1="298.0" x2="843.0" y2="314.0"/>
+<line class="pf" x1="843.0" y1="314.0" x2="811.0" y2="314.0"/>
+<line class="pf" x1="863.6" y1="297.3" x2="882.7" y2="297.3"/>
+<line class="pf" x1="882.7" y1="297.3" x2="882.7" y2="348.1"/>
+<line class="pf" x1="882.7" y1="348.1" x2="857.3" y2="348.1"/>
+<line class="pf" x1="857.3" y1="348.1" x2="857.3" y2="303.6"/>
+<line class="pf" x1="857.3" y1="303.6" x2="863.6" y2="297.3"/>
+<line class="pf" x1="894.0" y1="181.4" x2="894.0" y2="79.8"/>
+<line class="pf" x1="894.0" y1="79.8" x2="992.0" y2="79.8"/>
+<line class="pf" x1="992.0" y1="79.8" x2="992.0" y2="176.4"/>
+<line class="pf" x1="992.0" y1="176.4" x2="987.0" y2="181.4"/>
+<line class="pf" x1="987.0" y1="181.4" x2="894.0" y2="181.4"/>
+<line class="pf" x1="987.0" y1="181.4" x2="987.0" y2="79.8"/>
+<line class="pf" x1="972.0" y1="181.4" x2="972.0" y2="79.8"/>
+<line class="pf" x1="923.0" y1="181.4" x2="923.0" y2="79.8"/>
+<line class="pf" x1="936.4" y1="144.6" x2="957.4" y2="165.6"/>
+<line class="pf" x1="934.6" y1="146.4" x2="955.5" y2="167.4"/>
+<line class="pf" x1="936.4" y1="93.8" x2="957.4" y2="114.7"/>
+<line class="pf" x1="934.6" y1="95.6" x2="955.5" y2="116.6"/>
+<circle class="pf" cx="946.0" cy="156.0" r="15.0"/>
+<circle class="pf" cx="946.0" cy="105.2" r="15.0"/>
+<line class="pf" x1="894.0" y1="373.4" x2="894.0" y2="221.0"/>
+<line class="pf" x1="894.0" y1="221.0" x2="992.0" y2="221.0"/>
+<line class="pf" x1="992.0" y1="221.0" x2="992.0" y2="368.4"/>
+<line class="pf" x1="992.0" y1="368.4" x2="987.0" y2="373.4"/>
+<line class="pf" x1="987.0" y1="373.4" x2="894.0" y2="373.4"/>
+<line class="pf" x1="987.0" y1="373.4" x2="987.0" y2="221.0"/>
+<line class="pf" x1="972.0" y1="373.4" x2="972.0" y2="221.0"/>
+<line class="pf" x1="923.0" y1="373.4" x2="923.0" y2="221.0"/>
+<line class="pf" x1="936.4" y1="336.6" x2="957.4" y2="357.5"/>
+<line class="pf" x1="934.6" y1="338.4" x2="955.5" y2="359.4"/>
+<line class="pf" x1="936.4" y1="285.8" x2="957.4" y2="306.7"/>
+<line class="pf" x1="934.6" y1="287.6" x2="955.5" y2="308.6"/>
+<line class="pf" x1="936.4" y1="235.0" x2="957.4" y2="255.9"/>
+<line class="pf" x1="934.6" y1="236.8" x2="955.5" y2="257.8"/>
+<circle class="pf" cx="946.0" cy="348.0" r="15.0"/>
+<circle class="pf" cx="946.0" cy="297.2" r="15.0"/>
+<circle class="pf" cx="946.0" cy="246.4" r="15.0"/>
+<rect class="pd field" x="41.0" y="83.0" width="26.0" height="26.0" rx="2"/>
+<circle class="ph" cx="54.0" cy="96.0" r="6.5"/>
+<circle class="pd field" cx="54.0" cy="146.8" r="13.0"/>
+<circle class="ph" cx="54.0" cy="146.8" r="6.5"/>
+<rect class="pd field" x="41.0" y="211.0" width="26.0" height="26.0" rx="2"/>
+<circle class="ph" cx="54.0" cy="224.0" r="6.5"/>
+<circle class="pd field" cx="54.0" cy="274.8" r="13.0"/>
+<circle class="ph" cx="54.0" cy="274.8" r="6.5"/>
+<circle class="pd pe" cx="40.0" cy="34.0" r="28.0"/>
+<circle class="ph" cx="40.0" cy="34.0" r="16.0"/>
+<circle class="pd pe" cx="40.0" cy="346.0" r="28.0"/>
+<circle class="ph" cx="40.0" cy="346.0" r="16.0"/>
+<circle class="pd field" cx="132.0" cy="76.0" r="11.0"/>
+<circle class="ph" cx="132.0" cy="76.0" r="5.5"/>
+<circle class="pd field" cx="132.0" cy="127.0" r="11.0"/>
+<circle class="ph" cx="132.0" cy="127.0" r="5.5"/>
+<circle class="pd field" cx="132.0" cy="178.0" r="11.0"/>
+<circle class="ph" cx="132.0" cy="178.0" r="5.5"/>
+<circle class="pd field" cx="190.0" cy="95.0" r="9.0"/>
+<circle class="ph" cx="190.0" cy="95.0" r="4.0"/>
+<circle class="pd field" cx="170.0" cy="170.0" r="9.0"/>
+<circle class="ph" cx="170.0" cy="170.0" r="4.0"/>
+<rect class="pd field" x="189.0" y="21.0" width="13.2" height="18.0" rx="2"/>
+<rect class="pd pe" x="157.8" y="21.0" width="13.2" height="18.0" rx="2"/>
+<rect class="pd field" x="189.0" y="221.0" width="13.2" height="18.0" rx="2"/>
+<rect class="pd pe" x="157.8" y="221.0" width="13.2" height="18.0" rx="2"/>
+<rect class="pd field" x="216.0" y="192.0" width="18.0" height="56.0" rx="2"/>
+<rect class="pd pe" x="256.0" y="192.0" width="18.0" height="56.0" rx="2"/>
+<rect class="pd field" x="127.0" y="274.0" width="56.0" height="16.0" rx="2"/>
+<rect class="pd pe" x="127.0" y="307.0" width="56.0" height="16.0" rx="2"/>
+<rect class="pd field" x="127.0" y="340.0" width="56.0" height="16.0" rx="2"/>
+<rect class="pd field" x="206.0" y="268.8" width="18.0" height="13.2" rx="2"/>
+<rect class="pd pe" x="206.0" y="300.0" width="18.0" height="13.2" rx="2"/>
+<rect class="pd field" x="206.0" y="350.0" width="18.0" height="13.2" rx="2"/>
+<rect class="pd pe" x="206.0" y="318.8" width="18.0" height="13.2" rx="2"/>
+<rect class="pd field" x="251.0" y="289.0" width="21.0" height="26.0" rx="2"/>
+<rect class="pd field" x="300.0" y="289.0" width="21.0" height="26.0" rx="2"/>
+<rect class="pd field" x="251.0" y="343.0" width="21.0" height="26.0" rx="2"/>
+<rect class="pd field" x="300.0" y="343.0" width="21.0" height="26.0" rx="2"/>
+<circle class="pd field" cx="322.0" cy="193.0" r="11.0"/>
+<circle class="ph" cx="322.0" cy="193.0" r="6.0"/>
+<circle class="pd mid" cx="442.0" cy="193.0" r="11.0"/>
+<circle class="ph" cx="442.0" cy="193.0" r="6.0"/>
+<circle class="pd mid" cx="442.0" cy="93.0" r="11.0"/>
+<circle class="ph" cx="442.0" cy="93.0" r="6.0"/>
+<circle class="pd field" cx="322.0" cy="93.0" r="11.0"/>
+<circle class="ph" cx="322.0" cy="93.0" r="6.0"/>
+<rect class="pd mid" x="493.0" y="79.0" width="18.0" height="13.2" rx="2"/>
+<rect class="pd pe" x="493.0" y="47.8" width="18.0" height="13.2" rx="2"/>
+<rect class="pd mid" x="493.0" y="193.8" width="18.0" height="13.2" rx="2"/>
+<rect class="pd pe" x="493.0" y="225.0" width="18.0" height="13.2" rx="2"/>
+<circle class="pd mid" cx="560.0" cy="170.0" r="11.0"/>
+<circle class="ph" cx="560.0" cy="170.0" r="6.0"/>
+<circle class="pd prot" cx="610.0" cy="170.0" r="11.0"/>
+<circle class="ph" cx="610.0" cy="170.0" r="6.0"/>
+<circle class="pd prot" cx="610.0" cy="93.0" r="11.0"/>
+<circle class="ph" cx="610.0" cy="93.0" r="6.0"/>
+<circle class="pd mid" cx="560.0" cy="93.0" r="11.0"/>
+<circle class="ph" cx="560.0" cy="93.0" r="6.0"/>
+<rect class="pd mid" x="552.6" y="344.6" width="27.0" height="27.0" rx="2"/>
+<rect class="pd field" x="490.4" y="344.6" width="27.0" height="27.0" rx="2"/>
+<rect class="pd mid" x="552.6" y="268.4" width="27.0" height="27.0" rx="2"/>
+<rect class="pd field" x="490.4" y="268.4" width="27.0" height="27.0" rx="2"/>
+<rect class="pd mid" x="592.5" y="301.3" width="20.0" height="12.0" rx="2"/>
+<rect class="pd mid" x="592.5" y="326.7" width="20.0" height="12.0" rx="2"/>
+<rect class="pd prot" x="667.5" y="326.7" width="20.0" height="12.0" rx="2"/>
+<rect class="pd prot" x="667.5" y="301.3" width="20.0" height="12.0" rx="2"/>
+<circle class="pd pe" cx="630.0" cy="254.5" r="28.0"/>
+<circle class="ph" cx="630.0" cy="254.5" r="16.0"/>
+<rect class="pd prot" x="678.5" y="77.0" width="33.0" height="45.0" rx="2"/>
+<rect class="pd prot" x="678.5" y="165.0" width="33.0" height="45.0" rx="2"/>
+<rect class="pd prot" x="775.0" y="105.0" width="20.0" height="20.0" rx="2"/>
+<circle class="ph" cx="785.0" cy="115.0" r="5.0"/>
+<circle class="pd prot" cx="785.0" cy="165.0" r="10.0"/>
+<circle class="ph" cx="785.0" cy="165.0" r="5.0"/>
+<rect class="pd prot" x="851.0" y="120.8" width="18.0" height="13.2" rx="2"/>
+<rect class="pd prot" x="851.0" y="152.0" width="18.0" height="13.2" rx="2"/>
+<rect class="pd prot" x="851.0" y="84.0" width="18.0" height="13.2" rx="2"/>
+<rect class="pd pe" x="851.0" y="52.8" width="18.0" height="13.2" rx="2"/>
+<rect class="pd prot" x="851.0" y="187.8" width="18.0" height="13.2" rx="2"/>
+<rect class="pd pe" x="851.0" y="219.0" width="18.0" height="13.2" rx="2"/>
+<rect class="pd prot" x="715.5" y="224.5" width="35.0" height="23.0" rx="2"/>
+<rect class="pd pe" x="769.5" y="224.5" width="35.0" height="23.0" rx="2"/>
+<rect class="pd prot" x="819.2" y="196.0" width="17.5" height="13.0" rx="2"/>
+<rect class="pd pe" x="819.2" y="227.0" width="17.5" height="13.0" rx="2"/>
+<rect class="pd prot" x="700.5" y="306.5" width="19.0" height="8.0" rx="2"/>
+<rect class="pd prot" x="700.5" y="325.5" width="19.0" height="8.0" rx="2"/>
+<rect class="pd prot" x="730.5" y="316.0" width="19.0" height="8.0" rx="2"/>
+<rect class="pd prot" x="771.0" y="297.0" width="18.0" height="13.2" rx="2"/>
+<rect class="pd pe" x="771.0" y="265.8" width="18.0" height="13.2" rx="2"/>
+<rect class="pd prot" x="771.0" y="326.8" width="18.0" height="13.2" rx="2"/>
+<rect class="pd pe" x="771.0" y="358.0" width="18.0" height="13.2" rx="2"/>
+<rect class="pd prot" x="805.0" y="297.2" width="13.0" height="17.5" rx="2"/>
+<rect class="pd mid" x="836.0" y="297.2" width="13.0" height="17.5" rx="2"/>
+<rect class="pd mid" x="861.5" y="301.5" width="17.0" height="17.0" rx="2"/>
+<circle class="ph" cx="870.0" cy="310.0" r="5.0"/>
+<circle class="pd prot" cx="870.0" cy="335.4" r="8.5"/>
+<circle class="ph" cx="870.0" cy="335.4" r="5.0"/>
+<rect class="pd prot" x="933.0" y="143.0" width="26.0" height="26.0" rx="2"/>
+<circle class="ph" cx="946.0" cy="156.0" r="6.5"/>
+<circle class="pd prot" cx="946.0" cy="105.2" r="13.0"/>
+<circle class="ph" cx="946.0" cy="105.2" r="6.5"/>
+<rect class="pd prot" x="933.0" y="335.0" width="26.0" height="26.0" rx="2"/>
+<circle class="ph" cx="946.0" cy="348.0" r="6.5"/>
+<circle class="pd prot" cx="946.0" cy="297.2" r="13.0"/>
+<circle class="ph" cx="946.0" cy="297.2" r="6.5"/>
+<circle class="pd prot" cx="946.0" cy="246.4" r="13.0"/>
+<circle class="ph" cx="946.0" cy="246.4" r="6.5"/>
+<circle class="pd pe" cx="960.0" cy="36.0" r="28.0"/>
+<circle class="ph" cx="960.0" cy="36.0" r="16.0"/>
+<text class="pr" x="57.0" y="125.0" text-anchor="middle">J1</text>
+<text class="pr" x="57.0" y="253.0" text-anchor="middle">J3</text>
+<text class="pr" x="40.0" y="38.0" text-anchor="middle">H1</text>
+<text class="pr" x="40.0" y="350.0" text-anchor="middle">H2</text>
+<text class="pr" x="132.0" y="224.0" text-anchor="middle">F1</text>
+<text class="pr" x="182.0" y="136.0" text-anchor="middle">RV1</text>
+<text class="pr" x="180.0" y="34.0" text-anchor="middle">C5</text>
+<text class="pr" x="180.0" y="234.0" text-anchor="middle">C6</text>
+<text class="pr" x="245.0" y="224.0" text-anchor="middle">GDT1</text>
+<text class="pr" x="155.0" y="319.0" text-anchor="middle">GDT2</text>
+<text class="pr" x="215.0" y="295.0" text-anchor="middle">C11</text>
+<text class="pr" x="215.0" y="345.0" text-anchor="middle">C12</text>
+<text class="pr" x="286.0" y="306.0" text-anchor="middle">R1</text>
+<text class="pr" x="286.0" y="360.0" text-anchor="middle">R2</text>
+<text class="pr" x="382.0" y="147.0" text-anchor="middle">L1</text>
+<text class="pr" x="502.0" y="74.0" text-anchor="middle">C7</text>
+<text class="pr" x="502.0" y="220.0" text-anchor="middle">C8</text>
+<text class="pr" x="585.0" y="136.0" text-anchor="middle">L2</text>
+<text class="pr" x="535.0" y="324.0" text-anchor="middle">L3</text>
+<text class="pr" x="640.0" y="324.0" text-anchor="middle">L4</text>
+<text class="pr" x="630.0" y="258.5" text-anchor="middle">H4</text>
+<text class="pr" x="695.0" y="147.5" text-anchor="middle">D1</text>
+<text class="pr" x="785.0" y="144.0" text-anchor="middle">C1</text>
+<text class="pr" x="860.0" y="147.0" text-anchor="middle">C2</text>
+<text class="pr" x="860.0" y="79.0" text-anchor="middle">C9</text>
+<text class="pr" x="860.0" y="214.0" text-anchor="middle">C10</text>
+<text class="pr" x="760.0" y="240.0" text-anchor="middle">D3</text>
+<text class="pr" x="828.0" y="222.0" text-anchor="middle">R4</text>
+<text class="pr" x="725.0" y="324.0" text-anchor="middle">D2</text>
+<text class="pr" x="780.0" y="292.0" text-anchor="middle">C3</text>
+<text class="pr" x="780.0" y="353.0" text-anchor="middle">C4</text>
+<text class="pr" x="827.0" y="310.0" text-anchor="middle">R3</text>
+<text class="pr" x="870.0" y="326.8" text-anchor="middle">JP1</text>
+<text class="pr" x="943.0" y="135.0" text-anchor="middle">J2</text>
+<text class="pr" x="943.0" y="276.0" text-anchor="middle">J4</text>
+<text class="pr" x="960.0" y="40.0" text-anchor="middle">H3</text>
+<text class="pn" x="0" y="-26" text-anchor="start">← Kabel / Hirschmann-Dose</text>
+<text class="pn" x="1000" y="-26" text-anchor="end">Motor →</text>
+<text class="pn" x="500" y="414" text-anchor="middle">100 mm</text>
+<line class="pm" x1="0" y1="396" x2="1000" y2="396"/>
+</svg>

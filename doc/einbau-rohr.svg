@@ -1,0 +1,80 @@
+<svg width="1020" height="490" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 490" role="img" aria-label="Seitenansicht: Dose, Platine und Motor im Vierkantrohr"><style>:root{
+  --bg: #f3f6f6;
+  --sheet: #fbfdfd;
+  --fg: #15242c;
+  --muted: #5b6c75;
+  --line: #c9d5d9;
+  --wire: #1d2f38;
+  --pos: #b8291f;
+  --pe: #1b7a48;
+  --accent: #1c5ea6;
+  --field: #c8731c;
+  --mid: #7a4fb5;
+  --board: #e9f1ee;
+  --display: "IBM Plex Sans Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --body: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+svg .w { stroke: var(--wire); stroke-width: 1.6; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+svg .p { stroke: var(--pos); stroke-width: 1.8; fill: none; stroke-linecap: round; }
+svg .g { stroke: var(--pe); stroke-width: 1.8; fill: none; stroke-linecap: round; }
+svg .k { stroke: var(--wire); stroke-width: 2.4; fill: none; stroke-linecap: round; }
+svg .s { stroke: var(--wire); stroke-width: 1.6; fill: var(--sheet); stroke-linejoin: round; }
+svg .d { fill: var(--wire); stroke: none; }
+svg .b { stroke: var(--line); stroke-width: 1.2; fill: none; }
+svg .dash { stroke: var(--muted); stroke-width: 1.2; stroke-dasharray: 5 4; fill: none; }
+svg text { font-family: var(--display); font-size: 12.5px; fill: var(--fg); stroke: none; }
+svg .r { fill: var(--accent); font-weight: 600; }
+svg .n, svg .pin { font-family: var(--mono); font-size: 10.5px; fill: var(--muted); }
+svg .pin { fill: var(--fg); }
+svg .cap { font-family: var(--mono); font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; fill: var(--muted); }
+svg .tw { fill: var(--line); stroke: var(--wire); stroke-width: 1.2; }
+svg .pb { fill: var(--board); stroke: var(--wire); stroke-width: 2; }
+svg .pb2 { fill: var(--pe); stroke: none; }
+svg .pf { stroke: var(--muted); stroke-width: 1.3; fill: none; }
+svg .pd { stroke: none; }
+svg .pd.field { fill: var(--field); } svg .pd.pe { fill: var(--pe); } svg .pd.prot { fill: var(--accent); } svg .pd.mid { fill: var(--mid); }
+svg .ph { fill: var(--board); }
+svg .pr { font-family: var(--display); font-size: 15px; font-weight: 600; fill: var(--fg); }
+svg .pn { font-family: var(--mono); font-size: 14px; fill: var(--muted); }
+svg .pm { stroke: var(--line); stroke-width: 1.5; }
+svg{background:#fbfdfd;font-family:Arial,Helvetica,sans-serif}</style>
+<rect class="tw" x="30" y="140" width="960.0" height="15"/>
+<rect class="tw" x="30" y="375" width="960.0" height="15"/>
+<rect class="s" x="60" y="125" width="140" height="15"/>
+<rect class="s" x="75" y="35" width="110" height="90"/>
+<rect class="dash" x="80" y="155" width="100" height="100"/>
+<text class="r" x="130" y="21" text-anchor="middle">X1 · Hirschmann CA 6 GD</text>
+<text class="v" x="130" y="210" text-anchor="middle">ca. 20 mm</text>
+<rect class="pb2" x="230" y="342.0" width="500.0" height="8.0"/>
+<rect class="s" x="237.5" y="350.0" width="25" height="25"/>
+<line class="k" x1="250" y1="375" x2="250" y2="396"/>
+<rect class="s" x="532.5" y="350.0" width="25" height="25"/>
+<line class="k" x1="545" y1="375" x2="545" y2="396"/>
+<rect class="s" x="697.5" y="350.0" width="25" height="25"/>
+<line class="k" x1="710" y1="375" x2="710" y2="396"/>
+<rect class="s" x="233.5" y="292.0" width="50.0" height="50.0"/>
+<text class="r" x="258.5" y="321.0" text-anchor="middle">J1/J3</text>
+<rect class="s" x="289.2" y="177.0" width="13.5" height="165.0"/>
+<text class="r" x="296.0" y="172.0" text-anchor="middle" font-size="10">F1</text>
+<rect class="s" x="309.5" y="242.0" width="21.0" height="100.0"/>
+<text class="r" x="320.0" y="237.0" text-anchor="middle" font-size="10">RV1</text>
+<rect class="s" x="373.0" y="177.0" width="96.0" height="165.0"/>
+<text class="r" x="421.0" y="263.5" text-anchor="middle">L1</text>
+<rect class="s" x="490.8" y="232.0" width="63.5" height="110.0"/>
+<text class="r" x="522.5" y="291.0" text-anchor="middle">L2</text>
+<rect class="s" x="598.2" y="257.0" width="48.5" height="85.0"/>
+<text class="r" x="622.5" y="303.5" text-anchor="middle">C1</text>
+<rect class="s" x="676.5" y="292.0" width="50.0" height="50.0"/>
+<text class="r" x="701.5" y="321.0" text-anchor="middle">J2/J4</text>
+<rect class="s" x="780.0" y="159.2" width="210" height="211.5"/>
+<text class="r" x="885.0" y="265" text-anchor="middle">NEMA 17</text>
+<text class="v" x="885.0" y="280" text-anchor="middle">mit Treiber</text>
+<polyline class="b" points="30,415 30,420 230,420 230,415"/>
+<text class="cap" x="130.0" y="435" text-anchor="middle">Dose 40</text>
+<polyline class="b" points="230,415 230,420 730.0,420 730.0,415"/>
+<text class="cap" x="480.0" y="435" text-anchor="middle">Platine 100</text>
+<polyline class="b" points="730.0,415 730.0,420 780.0,420 780.0,415"/>
+<text class="cap" x="755.0" y="435" text-anchor="middle">10</text>
+<text class="cap" x="30" y="460">Rohr hinter dem Motor: ca. 150 mm · innen 44 mm bei 3 mm Wand · 4,4 mm Luft über F1 und L1</text>
+</svg>
